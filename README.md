@@ -1,0 +1,2 @@
+# Java_Source_Code_to_CLASSDIAGRAM
+Converting java source files to UML Class Diagram from Scratch without API's like inbuilt parsers and PlantUML .Implemented Java parser which takes .java source files and parser extracts info like class name,variables,methods and pass it to MYSQL server for storing. MYSQL contains 3Tables ,one for Class ,second for Variables having refrence to Class Table,third for Methods having reference to Class Table. Stored Data is retrieved and drawn on screen according to Class Diagram format.
